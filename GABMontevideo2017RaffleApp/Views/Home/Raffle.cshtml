@@ -1,0 +1,14 @@
+﻿@{
+    ViewData["Title"] = "Raffle";
+}
+<h2>@ViewData["Title"].</h2>
+<h3>@ViewData["Message"]</h3>
+
+@model GABMontevideo2017RaffleApp.Models.SubscribeModel
+
+@using (Html.BeginForm("Subscribe", "Home", FormMethod.Post))
+{   
+    @Html.TextBoxFor(model => model.Email)
+    @Html.ValidationMessageFor(model => model.Email)
+    <button type="submit">Subscribe</button>
+}
