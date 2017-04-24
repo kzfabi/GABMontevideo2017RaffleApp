@@ -9,7 +9,7 @@ The idea and implementation went well and attendees had fun with it and got the 
 
 Here's the code for you to check, have fun!
 
-Oh, and by the way, you can deploy it directly to your Azure cloud subscription by clicking the button below.
+Oh, and by the way, you can deploy it directly to your Azure cloud subscription by clicking the button below. See how easy it is? :)
 
 <a href="https://azuredeploy.net/" target="_blank">
     <img src="http://azuredeploy.net/deploybutton.png"/>
